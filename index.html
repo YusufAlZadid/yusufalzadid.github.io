@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>World Aid Membership Page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#118acb">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="noindex,nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700;800&display=swap"
+          rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.4.1/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="css/site.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <script src="scripts.js"></script>
+</head>
+    
+<body class="bg-gray-100">
+    <header>
+    <div id="header">
+        <div class="inner flex-between">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="WordAid" width="261" height="60">
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="hamburger">
+                        <path d="M12,24A12,12,0,1,1,24,12,12.013,12.013,0,0,1,12,24ZM12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Z"></path>
+                        <path d="M17 9H7A1 1 0 0 1 7 7H17a1 1 0 0 1 0 2zM17 13H7a1 1 0 0 1 0-2H17a1 1 0 0 1 0 2zM17 17H7a1 1 0 0 1 0-2H17a1 1 0 0 1 0 2z"></path>
+                    </svg>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Making a Difference</a>
+                    </li>
+                    <li>
+                        <a href="index_event.html">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#donate" class="button">Donate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+        <img src="images/banner.jpg" alt="World Aid Banner">
+    </div>
+</header>
+    <div class="inner">
+        
+<p>&nbsp;</p>
+<h1 class="text-4xl font-bold mb-6 flex justify-center">Join Our Membership Program and Make a Difference!</h1>
+    <h2 class="text-3xl text-gray-700 mb-8 flex justify-center">Be part of a community dedicated to creating positive change for underprivileged children and communities worldwide.</h2>
+        <div class="container mx-auto py-8">
+    <h1 class="text-3xl font-bold text-center mb-8">Membership Programs</h1>
+    
+    <div class="flex justify-center">
+        <div class="flex justify-center space-x-8">
+            <!-- Basic Membership -->
+            <div class="w-1/3 bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                <h2 class="text-xl font-bold mb-4">Basic Membership</h2>
+                <img src="images/basicmembership.jpeg" alt="Basic Membership" class="w-full mb-4 rounded-lg">
+
+                <p class="text-gray-600 font-semibold">Access to exclusive content and events</p>
+                <p class="text-gray-600 font-semibold">Monthly newsletter</p>
+                <p class="text-gray-600 font-semibold">Price: $10/month</p>
+                <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg mt-4 text-center">Join Now</a>
+            </div>
+
+            <!-- Premium Membership -->
+            <div class="w-1/3 bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                <h2 class="text-xl font-bold mb-4">Premium Membership</h2>
+                <img src="images/premiummembership.jpg" alt="Premium Membership" class="w-full mb-4 rounded-lg">
+                <p class="text-gray-600 font-semibold">All Basic benefits</p>
+                <p class="text-gray-600 font-semibold">Early access to new features</p>
+                <p class="text-gray-600 font-semibold">Discounts on merchandise</p>
+                <p class="text-gray-600 font-semibold">Price: $20/month</p>
+                <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg mt-4 text-center">Join Now</a>
+            </div>
+
+            <!-- VIP Membership -->
+            <div class="w-1/3 bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                <h2 class="text-xl font-bold mb-4">VIP Membership</h2>
+                <img src="images/vipmembership.jpg" alt="Basic Membership" class="w-full mb-4 rounded-lg">
+                <p class="text-gray-600 font-semibold">All Premium benefits</p>
+                <p class="text-gray-600 font-semibold">Personalized support</p>
+                <p class="text-gray-600 font-semibold">Invitation to exclusive events</p>
+                <p class="text-gray-600 font-semibold">Price: $30/month</p>
+                <a href="#" class="block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg mt-4 text-center">Join Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+    
+    <!-- Gift Membership -->
+       <div class="md:flex md:items-center bg-white rounded-lg shadow-lg overflow-hidden">
+    <!-- Text Section -->
+    <div class="md:w-1/2 p-8">
+        <h2 class="text-3xl font-bold mb-4 "style="color: #00B8A6;">Gift Membership</h2>
+        <p class="text-gray-700 mb-4">Spread kindness and make a difference by gifting a WorldAid membership to someone special. Your gift will not only provide access to exclusive content and events but also contribute to creating positive change for underprivileged children and communities worldwide. To give the gift of membership, click the button below.</p>
+
+        <a href="/membership/join-now#joinnow" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Gift a membership</a>
+    </div>
+    <!-- Image Section -->
+    <div class="md:w-1/2">
+        <img src="https://hnzpt-rpod-assets.azureedge.net/ybfh3zxi/totara-estate-lowres-3530.jpg?width=1200&amp;height=1200&amp;v=1d96cbd37a9bd70" alt="Gift Membership" class="object-cover w-full h-full">
+    </div>
+</div>
+  <!-- Horizontal Line -->
+<hr class="my-8 border-t-4 border-00B8A6">
+<!-- Stories Section -->
+<div class="container mx-auto py-12">
+    <h2 class="text-3xl font-bold text-center mb-8">Latest News And Stories</h2>
+    <div class="story-carousel">
+        <!-- Story 1 -->
+        <div class="story-card bg-white">
+            <img src="https://via.placeholder.com/500" alt="Story Image" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Story Title 1</h3>
+                <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Read More</a>
+            </div>
+        </div>
+
+        <!-- Story 2 -->
+        <div class="story-card bg-white">
+            <img src="https://via.placeholder.com/500" alt="Story Image" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Story Title 2</h3>
+                <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Read More</a>
+            </div>
+        </div>
+
+        <!-- Story 3 -->
+        <div class="story-card bg-white">
+            <img src="https://via.placeholder.com/500" alt="Story Image" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Story Title 3</h3>
+                <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Read More</a>
+            </div>
+        </div>
+
+        <!-- Story 4 -->
+        <div class="story-card bg-white">
+            <img src="https://via.placeholder.com/500" alt="Story Image" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Story Title 4</h3>
+                <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Read More</a>
+            </div>
+        </div>
+
+        <!-- Story 5 -->
+        <div class="story-card bg-white">
+            <img src="https://via.placeholder.com/500" alt="Story Image" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Story Title 5</h3>
+                <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Read More</a>
+            </div>
+        </div>
+
+        <!-- Story 6 -->
+        <div class="story-card bg-white">
+            <img src="https://via.placeholder.com/500" alt="Story Image" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Story Title 6</h3>
+                <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus.</p>
+                <a href="#" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+      <!-- Horizontal Line -->
+<hr class="my-8 border-t-4 border-00B8A6">
+<!-- FAQ Section -->
+<div class="mt-8 bg-white rounded-lg p-8">
+    <h2 class="text-3xl font-bold mb-4 flex justify-center"style="color: #00B8A6;">Frequently Asked Questions</h2>
+    <div class="accordion">
+        <!-- FAQ Item 1 -->
+        <div class="accordion-item" x-data="{ openItem: false }">
+            <div class="accordion-title flex items-center justify-between" @click="openItem = !openItem">
+                <div class="text-xl font-bold">Question 1: What is WorldAid?</div>
+                <svg class="w-6 h-6 transform transition-transform duration-300" :class="{ 'rotate-180': openItem }" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7 10l5 5 5-5z" />
+                </svg>
+            </div>
+            <div class="accordion-content" x-show="openItem" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 transform scale-95" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-95">
+                <p class="text-gray-700 text-lg">WorldAid is a global humanitarian organization dedicated to providing aid and support to underprivileged children and communities worldwide. Our mission is to make a positive impact by addressing the most pressing issues facing these populations, including poverty, hunger, education, and healthcare.</p>
+            </div>
+        </div>
+                <hr class="my-4 border-t border-black border-opacity-50">
+
+        <!-- FAQ Item 2 -->
+        <div class="accordion-item" x-data="{ openItem: false }">
+            <div class="accordion-title flex items-center justify-between" @click="openItem = !openItem">
+                <div class="text-xl font-bold">Question 2: How can I donate to WorldAid?</div>
+                <svg class="w-6 h-6 transform transition-transform duration-300" :class="{ 'rotate-180': openItem }" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M7 10l5 5 5-5z" />
+                </svg>
+            </div>
+            <div class="accordion-content" x-show="openItem" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 transform scale-95" x-transition:enter-end="opacity-100 transform scale-100" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 transform scale-100" x-transition:leave-end="opacity-0 transform scale-95">
+                <p class="text-gray-700 text-lg">You can donate to WorldAid through various methods such as online donations, bank transfers, or by participating in fundraising events organized by our team. Visit our donation page for more information on how you can contribute to our cause.</p>
+            </div>
+        </div>
+        <!-- Repeat similar structure for other FAQ items -->
+    </div>
+</div>
+       <!-- Horizontal Line -->
+<hr class="my-8 border-t-4 border-00B8A6">       
+    
+<!-- Contact Us Section -->
+<section class="bg-gray-100 py-12">
+    <div class="container-fluid mx-auto">
+        <!-- Contact Us Title -->
+                <div class="md:w-full p-4 bg-white rounded-lg">
+                    <h2 class="text-3xl font-bold text-center mb-4">Contact Us</h2>
+                </div>
+        <div class="max-w-full mx-auto">
+            
+            <div class="bg-white rounded-lg shadow-lg md:flex md:items-center">
+                <!-- Organization Address -->
+                <div class="md:w-1/2 p-4">
+                    <h3 class="text-xl font-bold mb-4" style="color: #00B8A6;">Our Address</h3>
+                    <p class="text-gray-700 mb-4">WorldAid Headquarters<br>123 Main Street<br>City, Country<br>Postal Code</p>
+                </div>
+                <p>&nbsp;</p>
+                <!-- Contact Form -->
+                <div class="md:w-1/2 p-4">
+                    <form action="#" method="POST">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-bold mb-2">Name:</label>
+                            <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-bold mb-2">Email:</label>
+                            <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 font-bold mb-2">Message:</label>
+                            <textarea id="message" name="message" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="flex justify-center">
+                            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer>
+    <div id="footer">
+        <div id="cta">
+            <p>Make a difference where it counts, Through compassion & action.</p>
+            <a href="#donate" class="button">Help make a difference today</a>
+        </div>
+        <div id="footer-bottom">
+            <div class="inner flex-between">
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="WordAid" width="261" height="60">
+                    </a>
+                </div>
+                <div id="footer-menu">
+                    <div class="wrapper">
+                        <div class="left">
+                            <div class="menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Making a Difference</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Case Studies</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="copyright">
+                                <ul>
+                                    <li>
+                                        Copyright 2023 WorldAid
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <a href="#donate" class="button">Donate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-bg">
+        <img src="images/footer-bg.jpg" alt="World Aid Footer">
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.story-carousel').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+            nextArrow: '<button type="button" class="slick-next">Next</button>',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+    });
+</script>
+
+</body>
+</html>
