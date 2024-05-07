@@ -13,7 +13,6 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <meta name="robots" content="noindex,nofollow">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700;800&display=swap"
@@ -27,7 +26,7 @@
     <div id="header">
         <div class="inner flex-between">
             <div id="logo">
-                <a href="index.html">
+                <a href="#">
                     <img src="images/logo.png" alt="WordAid" width="261" height="60">
                 </a>
             </div>
@@ -38,7 +37,7 @@
                         <path d="M17 9H7A1 1 0 0 1 7 7H17a1 1 0 0 1 0 2zM17 13H7a1 1 0 0 1 0-2H17a1 1 0 0 1 0 2zM17 17H7a1 1 0 0 1 0-2H17a1 1 0 0 1 0 2z"></path>
                     </svg>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
                         <a href="#">About</a>
@@ -47,10 +46,7 @@
                         <a href="#">Making a Difference</a>
                     </li>
                     <li>
-                        <a href="index_event.html">Events</a>
-                    </li>
-                    <li>
-                        <a href="membership.html">Memberships</a>
+                        <a href="#">Case Studies</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -83,9 +79,6 @@
             has had on individuals, families, and entire communities. Your commitment to making the world a better place
             is undeniably making a meaningful difference, and we are profoundly grateful for your continued partnership
             in this vital work.</p>
-        
-        <p>&nbsp;</p>
-        <h3><strong>Note: Please be aware that this is just a demonstration page and not an actual Charity/NFP. Hence, real credit cards will not be accepted.</strong></h3>
     </div>
     <div id="donate">
         <div class="form">
@@ -113,7 +106,7 @@
                 <div x-ref="wrapper" class="block-wrapper">
 
                     <form x-ref="donationIntroForm"
-                          action="https://worldaid-dev-ed.develop.my.salesforce-sites.com/aakpay__checkoutm?"
+                          action="https://p2us202103-dev-ed.my.salesforce-sites.com/AAkPay__CheckoutM?"
                           method="GET"
                           target="donationform"
                           @submit.prevent="submitToForm">
@@ -396,8 +389,8 @@
                                 </div>
 
                                 <div class="button">
-                                    <input type="hidden" name="payMSetting" value="a0ZW20000000EqzMAE">
-                                    <input type="hidden" name="payMType" value="a0bW20000001VeUIAU">
+                                    <input type="hidden" name="payMSetting" value="a0Z5g0000007t6QEAQ">
+                                    <input type="hidden" name="payMType" value="a0b5g0000003CxoAAE">
                                     <input type="hidden" name="hideprogressbar" value="true">
                                     <input type="hidden" name="PaymentBy" x-model="payment_by">
                                     <input type="hidden" name="hideTransDetails" value="true">
